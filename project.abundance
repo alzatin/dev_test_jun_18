@@ -39,9 +39,9 @@
         },
         {
             "atomType": "Join",
-            "name": "Assembly",
-            "x": 0.6636455186304129,
-            "y": 0.4192546583850931,
+            "name": "Fusion",
+            "x": 0.666347075743049,
+            "y": 0.41304347826086957,
             "uniqueID": 1718731779181,
             "ioValues": [
                 {
@@ -133,7 +133,12 @@
             "x": 0.972809667673716,
             "y": 0.5,
             "uniqueID": 1718731758107,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1718731824175
+                }
+            ]
         }
     ],
     "allConnectors": [
