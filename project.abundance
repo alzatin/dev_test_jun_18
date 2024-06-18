@@ -39,7 +39,7 @@
         },
         {
             "atomType": "Join",
-            "name": "Fusion",
+            "name": "Assembly",
             "x": 0.666347075743049,
             "y": 0.41304347826086957,
             "uniqueID": 1718731779181,
@@ -52,7 +52,8 @@
                     "name": "3D shape 3",
                     "ioValue": 1718731799035
                 }
-            ]
+            ],
+            "unionType": "Assembly"
         },
         {
             "atomType": "Rectangle",
