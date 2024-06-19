@@ -14,9 +14,111 @@
             "y": 0.5,
             "uniqueID": 1718731758107,
             "ioValues": []
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.11307053941908715,
+            "y": 0.40372670807453415,
+            "uniqueID": 1718826949655,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.3195020746887967,
+            "y": 0.3726708074534162,
+            "uniqueID": 1718826953054,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1718826949655
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.47717842323651455,
+            "y": 0.3447204968944099,
+            "uniqueID": 1718826963134,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1718826953054
+                }
+            ],
+            "selectedColorIndex": 2
+        },
+        {
+            "atomType": "Join",
+            "name": "Assembly",
+            "x": 0.6597510373443983,
+            "y": 0.46894409937888204,
+            "uniqueID": 1718826983672,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 1718826963134
+                }
+            ],
+            "unionType": "Assembly"
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.30290456431535273,
+            "y": 0.7018633540372671,
+            "uniqueID": 1718827000775,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1718827000938,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "unitsIndex": 0,
+            "fileTypeVersion": 1
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1718826949655,
+            "ap2ID": 1718826953054
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1718826953054,
+            "ap2ID": 1718826963134
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 1718826963134,
+            "ap2ID": 1718826983672
+        }
+    ],
     "unitsIndex": 0,
     "fileTypeVersion": 1,
     "filetypeVersion": 1
