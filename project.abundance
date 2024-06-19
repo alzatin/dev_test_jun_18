@@ -25,23 +25,6 @@
             ]
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.4253112033195021,
-            "y": 0.40372670807453415,
-            "uniqueID": 1718828041241,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1718828037704
-                },
-                {
-                    "name": "height",
-                    "ioValue": 5
-                }
-            ]
-        },
-        {
             "atomType": "Join",
             "name": "Assembly",
             "x": 0.545643153526971,
@@ -58,6 +41,23 @@
                 }
             ],
             "unionType": "Assembly"
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.4253112033195021,
+            "y": 0.40372670807453415,
+            "uniqueID": 1718828041241,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1718828037704
+                },
+                {
+                    "name": "height",
+                    "ioValue": 5
+                }
+            ]
         },
         {
             "atomType": "Circle",
@@ -115,17 +115,22 @@
             ]
         },
         {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.972809667673716,
-            "y": 0.5,
-            "uniqueID": 1718731758107,
+            "atomType": "Join",
+            "name": "Assembly",
+            "x": 0.7863070539419087,
+            "y": 0.5124223602484472,
+            "uniqueID": 1718828071396,
             "ioValues": [
                 {
-                    "name": "number or geometry",
+                    "name": "3D shape 2",
                     "ioValue": 1718828006821
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 1718828098073
                 }
-            ]
+            ],
+            "unionType": "Assembly"
         },
         {
             "atomType": "Rotate",
@@ -153,24 +158,6 @@
             ]
         },
         {
-            "atomType": "Join",
-            "name": "Assembly",
-            "x": 0.7863070539419087,
-            "y": 0.5124223602484472,
-            "uniqueID": 1718828071396,
-            "ioValues": [
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 1718828006821
-                },
-                {
-                    "name": "3D shape 3",
-                    "ioValue": 1718828098073
-                }
-            ],
-            "unionType": "Assembly"
-        },
-        {
             "atomType": "Color",
             "name": "Color",
             "x": 0.7302904564315352,
@@ -183,6 +170,19 @@
                 }
             ],
             "selectedColorIndex": 4
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.972809667673716,
+            "y": 0.5,
+            "uniqueID": 1718731758107,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1718828006821
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -192,13 +192,6 @@
             "ap2Primary": true,
             "ap1ID": 1718828037704,
             "ap2ID": 1718828041241
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 2",
-            "ap2Primary": false,
-            "ap1ID": 1718828041241,
-            "ap2ID": 1718828006821
         },
         {
             "ap1Name": "geometry",
@@ -220,6 +213,13 @@
             "ap2Primary": false,
             "ap1ID": 1718828006821,
             "ap2ID": 1718828071396
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 1718828041241,
+            "ap2ID": 1718828006821
         },
         {
             "ap1Name": "geometry",
