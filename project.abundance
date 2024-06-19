@@ -162,8 +162,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.7800829875518672,
-            "y": 0.4751552795031056,
+            "x": 0.5643153526970954,
+            "y": 0.5745341614906833,
             "uniqueID": 1718826983672,
             "ioValues": [
                 {
@@ -222,8 +222,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.6504149377593361,
-            "y": 0.6832298136645962,
+            "x": 0.6234439834024896,
+            "y": 0.8198757763975155,
             "uniqueID": 1718827222768,
             "ioValues": [
                 {
@@ -243,6 +243,24 @@
                     "ioValue": 0
                 }
             ]
+        },
+        {
+            "atomType": "Join",
+            "name": "Assembly",
+            "x": 0.7572614107883818,
+            "y": 0.2981366459627329,
+            "uniqueID": 1718827400784,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 1718826963134
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 1718826983672
+                }
+            ],
+            "unionType": "Assembly"
         }
     ],
     "allConnectors": [
@@ -268,6 +286,13 @@
             "ap2ID": 1718826983672
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 1718826963134,
+            "ap2ID": 1718827400784
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 2",
             "ap2Primary": false,
@@ -287,6 +312,13 @@
             "ap2Primary": false,
             "ap1ID": 1718826983672,
             "ap2ID": 1718731758107
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 1718826983672,
+            "ap2ID": 1718827400784
         },
         {
             "ap1Name": "geometry",
