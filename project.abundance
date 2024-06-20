@@ -73,6 +73,20 @@
             ]
         },
         {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.700207468879668,
+            "y": 0.3447204968944099,
+            "uniqueID": 1718895248192,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1718828006821
+                }
+            ],
+            "selectedColorIndex": 5
+        },
+        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.26348547717842324,
@@ -113,20 +127,6 @@
                     "ioValue": 0
                 }
             ]
-        },
-        {
-            "atomType": "Color",
-            "name": "Color",
-            "x": 0.700207468879668,
-            "y": 0.3447204968944099,
-            "uniqueID": 1718895248192,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1718828006821
-                }
-            ],
-            "selectedColorIndex": 5
         },
         {
             "atomType": "Rotate",
@@ -237,6 +237,13 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "3D shape 3",
+            "ap2Primary": false,
+            "ap1ID": 1718895248192,
+            "ap2ID": 1718895156360
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 1718827544446,
@@ -248,13 +255,6 @@
             "ap2Primary": false,
             "ap1ID": 1718827212733,
             "ap2ID": 1718828006821
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 3",
-            "ap2Primary": false,
-            "ap1ID": 1718895248192,
-            "ap2ID": 1718895156360
         },
         {
             "ap1Name": "geometry",
