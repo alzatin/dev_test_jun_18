@@ -140,6 +140,38 @@
             ]
         },
         {
+            "atomType": "Join",
+            "name": "Assembly",
+            "x": 0.8641078838174273,
+            "y": 0.6583850931677019,
+            "uniqueID": 1718895156360,
+            "ioValues": [
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 1718828098073
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 1718895248192
+                }
+            ],
+            "unionType": "Assembly"
+        },
+        {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.6732365145228215,
+            "y": 0.8633540372670808,
+            "uniqueID": 1718828098073,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1718828067938
+                }
+            ],
+            "selectedColorIndex": 14
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.972809667673716,
@@ -155,34 +187,16 @@
         {
             "atomType": "Color",
             "name": "Color",
-            "x": 0.6763485477178424,
-            "y": 0.8322981366459627,
-            "uniqueID": 1718828098073,
+            "x": 0.6939834024896265,
+            "y": 0.5372670807453416,
+            "uniqueID": 1718895248192,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1718828067938
-                }
-            ],
-            "selectedColorIndex": 4
-        },
-        {
-            "atomType": "Join",
-            "name": "Assembly",
-            "x": 0.7946058091286307,
-            "y": 0.5838509316770186,
-            "uniqueID": 1718895156360,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
                     "ioValue": 1718828006821
-                },
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 1718828098073
                 }
             ],
-            "unionType": "Assembly"
+            "selectedColorIndex": 5
         }
     ],
     "allConnectors": [
@@ -216,10 +230,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 1",
-            "ap2Primary": false,
+            "ap2Name": "geometry",
+            "ap2Primary": true,
             "ap1ID": 1718828006821,
-            "ap2ID": 1718895156360
+            "ap2ID": 1718895248192
         },
         {
             "ap1Name": "geometry",
@@ -254,6 +268,13 @@
             "ap2Name": "3D shape 2",
             "ap2Primary": false,
             "ap1ID": 1718828098073,
+            "ap2ID": 1718895156360
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 3",
+            "ap2Primary": false,
+            "ap1ID": 1718895248192,
             "ap2ID": 1718895156360
         }
     ],
