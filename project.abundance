@@ -87,23 +87,6 @@
             "selectedColorIndex": 5
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.26348547717842324,
-            "y": 0.7608695652173914,
-            "uniqueID": 1718827544446,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1718827536567
-                },
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Rotate",
             "name": "Rotate",
             "x": 0.38278008298755184,
@@ -125,6 +108,23 @@
                 {
                     "name": "z-axis degrees",
                     "ioValue": 0
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.26348547717842324,
+            "y": 0.7608695652173914,
+            "uniqueID": 1718827544446,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1718827536567
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
                 }
             ]
         },
@@ -172,19 +172,6 @@
             "unionType": "Assembly"
         },
         {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.972809667673716,
-            "y": 0.5,
-            "uniqueID": 1718731758107,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1718895156360
-                }
-            ]
-        },
-        {
             "atomType": "Color",
             "name": "Color",
             "x": 0.6773858921161825,
@@ -197,6 +184,19 @@
                 }
             ],
             "selectedColorIndex": 14
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.972809667673716,
+            "y": 0.5,
+            "uniqueID": 1718731758107,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1718895156360
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -244,17 +244,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1718827544446,
-            "ap2ID": 1718827212733
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "3D shape 1",
             "ap2Primary": false,
             "ap1ID": 1718827212733,
             "ap2ID": 1718828006821
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1718827544446,
+            "ap2ID": 1718827212733
         },
         {
             "ap1Name": "geometry",
