@@ -10,8 +10,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.529045643153527,
-            "y": 0.32919254658385094,
+            "x": 0.49019607843137253,
+            "y": 0.3136645962732919,
             "uniqueID": 1718828006821,
             "ioValues": [
                 {
@@ -55,13 +55,13 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.45124481327800825,
-            "y": 0.6925465838509317,
+            "x": 0.44880174291938996,
+            "y": 0.5683229813664596,
             "uniqueID": 1718827212733,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1718827544446
+                    "ioValue": 1718907506608
                 },
                 {
                     "name": "x-axis degrees",
@@ -80,8 +80,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.29564315352697096,
-            "y": 0.7142857142857143,
+            "x": 0.24945533769063183,
+            "y": 0.6956521739130435,
             "uniqueID": 1718827544446,
             "ioValues": [
                 {
@@ -167,8 +167,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.30809128630705396,
-            "y": 0.46894409937888204,
+            "x": 0.18627450980392157,
+            "y": 0.37577639751552794,
             "uniqueID": 1718898781441,
             "ioValues": [],
             "topLevel": false,
@@ -271,6 +271,35 @@
             ],
             "unitsIndex": 0,
             "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.3921568627450981,
+            "y": 0.7919254658385093,
+            "uniqueID": 1718907506608,
+            "ioValues": [
+                {
+                    "name": "tool size",
+                    "ioValue": 6.35
+                },
+                {
+                    "name": "passes",
+                    "ioValue": 6
+                },
+                {
+                    "name": "speed",
+                    "ioValue": 500
+                },
+                {
+                    "name": "tabs",
+                    "ioValue": "true"
+                },
+                {
+                    "name": "safe height",
+                    "ioValue": 6
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -313,13 +342,6 @@
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
-            "ap1ID": 1718827544446,
-            "ap2ID": 1718827212733
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
             "ap1ID": 1718828067938,
             "ap2ID": 1718828098073
         },
@@ -343,6 +365,13 @@
             "ap2Primary": false,
             "ap1ID": 1718898781441,
             "ap2ID": 1718828006821
+        },
+        {
+            "ap1Name": "gcode",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1718907506608,
+            "ap2ID": 1718827212733
         }
     ],
     "unitsIndex": 0,
