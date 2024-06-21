@@ -2,8 +2,8 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|name|2|$30.50||
-|name555|3|$0.00||
-|Total: |5|$30.50| |
+|fixings|2|$30.50||
+|screwtop|3|$10.00||
+|Total: |5|$40.50| |
 
- 3xCOG MSRP: $91.50
+ 3xCOG MSRP: $121.50

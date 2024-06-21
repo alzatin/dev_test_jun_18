@@ -172,6 +172,20 @@
             ]
         },
         {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.6764705882352942,
+            "y": 0.2950310559006211,
+            "uniqueID": 1718895248192,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1718828006821
+                }
+            ],
+            "selectedColorIndex": 5
+        },
+        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.24945533769063183,
@@ -189,24 +203,10 @@
             ]
         },
         {
-            "atomType": "Color",
-            "name": "Color",
-            "x": 0.6764705882352942,
-            "y": 0.2950310559006211,
-            "uniqueID": 1718895248192,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1718828006821
-                }
-            ],
-            "selectedColorIndex": 5
-        },
-        {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.6535947712418301,
-            "y": 0.45962732919254656,
+            "x": 0.6514161220043573,
+            "y": 0.47204968944099385,
             "uniqueID": 1718909884317,
             "ioValues": [
                 {
@@ -215,7 +215,7 @@
                 }
             ],
             "BOMitem": {
-                "BOMitemName": "name",
+                "BOMitemName": "fixings",
                 "numberNeeded": 2,
                 "costUSD": 30.5,
                 "source": "www.example.com"
@@ -295,9 +295,9 @@
                 }
             ],
             "BOMitem": {
-                "BOMitemName": "name555",
+                "BOMitemName": "screwtop",
                 "numberNeeded": 3,
-                "costUSD": 0,
+                "costUSD": 10,
                 "source": "www.example.com"
             }
         },
@@ -360,17 +360,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1718827544446,
-            "ap2ID": 1718827212733
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "3D shape 5",
             "ap2Primary": false,
             "ap1ID": 1718895248192,
             "ap2ID": 1718895156360
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1718827544446,
+            "ap2ID": 1718827212733
         },
         {
             "ap1Name": "geometry",
