@@ -53,8 +53,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.7033195020746887,
-                    "y": 0.6583850931677019,
+                    "x": 0.6721132897603486,
+                    "y": 0.4906832298136645,
                     "uniqueID": 1718898797699,
                     "ioValues": [
                         {
@@ -84,9 +84,28 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1718898797699
+                            "ioValue": 1718935220118
                         }
                     ]
+                },
+                {
+                    "atomType": "Add-BOM-Tag",
+                    "name": "Add BOM Tag",
+                    "x": 0.7538126361655774,
+                    "y": 0.7236024844720497,
+                    "uniqueID": 1718935220118,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1718898797699
+                        }
+                    ],
+                    "BOMitem": {
+                        "BOMitemName": "bracket",
+                        "numberNeeded": 1,
+                        "costUSD": 230,
+                        "source": "www.example.com"
+                    }
                 }
             ],
             "allConnectors": [
@@ -106,14 +125,29 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1718898797699,
+                    "ap2ID": 1718935220118
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 1718898797699,
+                    "ap1ID": 1718935220118,
                     "ap2ID": 1718898781288
                 }
             ],
             "unitsIndex": 0,
-            "fileTypeVersion": 1
+            "fileTypeVersion": 1,
+            "compiledBom": [
+                {
+                    "BOMitemName": "bracket",
+                    "numberNeeded": 1,
+                    "costUSD": 230,
+                    "source": "www.example.com"
+                }
+            ]
         },
         {
             "atomType": "Join",
@@ -224,8 +258,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.5490196078431373,
-            "y": 0.5993788819875777,
+            "x": 0.48366013071895425,
+            "y": 0.5869565217391304,
             "uniqueID": 1718828067938,
             "ioValues": [
                 {
@@ -249,8 +283,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.8082788671023966,
-            "y": 0.4192546583850931,
+            "x": 0.8213507625272332,
+            "y": 0.49689440993788814,
             "uniqueID": 1718895156360,
             "ioValues": [
                 {
@@ -271,8 +305,8 @@
         {
             "atomType": "Color",
             "name": "Color",
-            "x": 0.6721132897603486,
-            "y": 0.6459627329192547,
+            "x": 0.5718954248366013,
+            "y": 0.6708074534161491,
             "uniqueID": 1718828098073,
             "ioValues": [
                 {
@@ -285,13 +319,13 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.611111111111111,
-            "y": 0.7453416149068324,
+            "x": 0.7015250544662309,
+            "y": 0.7732919254658385,
             "uniqueID": 1718909842362,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1718828067938
+                    "ioValue": 1718828098073
                 }
             ],
             "BOMitem": {
@@ -388,17 +422,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1718828067938,
-            "ap2ID": 1718909842362
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
             "ap1ID": 1718895156360,
             "ap2ID": 1718731758107
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1718828098073,
+            "ap2ID": 1718909842362
         },
         {
             "ap1Name": "geometry",
@@ -410,5 +444,19 @@
     ],
     "unitsIndex": 0,
     "fileTypeVersion": 1,
+    "compiledBom": [
+        {
+            "BOMitemName": "fixings",
+            "numberNeeded": 2,
+            "costUSD": 30.5,
+            "source": "www.example.com"
+        },
+        {
+            "BOMitemName": "screwtop",
+            "numberNeeded": 3,
+            "costUSD": 10,
+            "source": "www.example.com"
+        }
+    ],
     "filetypeVersion": 1
 }
