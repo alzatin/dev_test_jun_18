@@ -216,8 +216,8 @@
             ],
             "BOMitem": {
                 "BOMitemName": "name",
-                "numberNeeded": 1,
-                "costUSD": 0,
+                "numberNeeded": 2,
+                "costUSD": 30.5,
                 "source": "www.example.com"
             }
         },
@@ -286,7 +286,7 @@
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
             "x": 0.611111111111111,
-            "y": 0.7639751552795032,
+            "y": 0.7453416149068324,
             "uniqueID": 1718909842362,
             "ioValues": [
                 {
@@ -296,7 +296,7 @@
             ],
             "BOMitem": {
                 "BOMitemName": "name555",
-                "numberNeeded": 1,
+                "numberNeeded": 3,
                 "costUSD": 0,
                 "source": "www.example.com"
             }
