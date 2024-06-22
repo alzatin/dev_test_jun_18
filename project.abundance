@@ -448,18 +448,6 @@
         {
             "numberNeeded": null,
             "costUSD": null
-        },
-        {
-            "BOMitemName": "fixings",
-            "numberNeeded": 2,
-            "costUSD": 30.5,
-            "source": "www.example.com"
-        },
-        {
-            "BOMitemName": "screwtop",
-            "numberNeeded": 3,
-            "costUSD": 10,
-            "source": "www.example.com"
         }
     ],
     "filetypeVersion": 1

@@ -3,8 +3,6 @@
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
 |undefined|NaN|$NaN||
-|fixings|2|$30.50||
-|screwtop|3|$10.00||
 |Total: |NaN|$NaN| |
 
  3xCOG MSRP: $NaN
