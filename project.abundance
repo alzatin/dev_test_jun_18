@@ -446,6 +446,10 @@
     "fileTypeVersion": 1,
     "compiledBom": [
         {
+            "numberNeeded": null,
+            "costUSD": null
+        },
+        {
             "BOMitemName": "fixings",
             "numberNeeded": 2,
             "costUSD": 30.5,

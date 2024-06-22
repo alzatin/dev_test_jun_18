@@ -2,8 +2,9 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
+|undefined|NaN|$NaN||
 |fixings|2|$30.50||
 |screwtop|3|$10.00||
-|Total: |5|$40.50| |
+|Total: |NaN|$NaN| |
 
- 3xCOG MSRP: $121.50
+ 3xCOG MSRP: $NaN
