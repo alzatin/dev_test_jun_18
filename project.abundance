@@ -76,19 +76,6 @@
                     ]
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": 1718898781288,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1718935220118
-                        }
-                    ]
-                },
-                {
                     "atomType": "Add-BOM-Tag",
                     "name": "Add BOM Tag",
                     "x": 0.7538126361655774,
@@ -106,6 +93,19 @@
                         "costUSD": 230,
                         "source": "www.example.com"
                     }
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1718898781288,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1718935220118
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -237,25 +237,6 @@
             ]
         },
         {
-            "atomType": "Add-BOM-Tag",
-            "name": "Add BOM Tag",
-            "x": 0.6514161220043573,
-            "y": 0.47204968944099385,
-            "uniqueID": 1718909884317,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1718828006821
-                }
-            ],
-            "BOMitem": {
-                "BOMitemName": "fixings",
-                "numberNeeded": 2,
-                "costUSD": 30.5,
-                "source": "www.example.com"
-            }
-        },
-        {
             "atomType": "Rotate",
             "name": "Rotate",
             "x": 0.48366013071895425,
@@ -281,6 +262,39 @@
             ]
         },
         {
+            "atomType": "Add-BOM-Tag",
+            "name": "Add BOM Tag",
+            "x": 0.6514161220043573,
+            "y": 0.47204968944099385,
+            "uniqueID": 1718909884317,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1718828006821
+                }
+            ],
+            "BOMitem": {
+                "BOMitemName": "fixings",
+                "numberNeeded": 2,
+                "costUSD": 30.5,
+                "source": "www.example.com"
+            }
+        },
+        {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.5718954248366013,
+            "y": 0.6708074534161491,
+            "uniqueID": 1718828098073,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1718828067938
+                }
+            ],
+            "selectedColorIndex": 14
+        },
+        {
             "atomType": "Join",
             "name": "Assembly",
             "x": 0.8213507625272332,
@@ -301,20 +315,6 @@
                 }
             ],
             "unionType": "Assembly"
-        },
-        {
-            "atomType": "Color",
-            "name": "Color",
-            "x": 0.5718954248366013,
-            "y": 0.6708074534161491,
-            "uniqueID": 1718828098073,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1718828067938
-                }
-            ],
-            "selectedColorIndex": 14
         },
         {
             "atomType": "Add-BOM-Tag",
@@ -408,6 +408,13 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1718828067938,
+            "ap2ID": 1718828098073
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "3D shape 8",
             "ap2Primary": false,
             "ap1ID": 1718909884317,
@@ -417,8 +424,8 @@
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
-            "ap1ID": 1718828067938,
-            "ap2ID": 1718828098073
+            "ap1ID": 1718828098073,
+            "ap2ID": 1718909842362
         },
         {
             "ap1Name": "geometry",
@@ -426,13 +433,6 @@
             "ap2Primary": false,
             "ap1ID": 1718895156360,
             "ap2ID": 1718731758107
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1718828098073,
-            "ap2ID": 1718909842362
         },
         {
             "ap1Name": "geometry",
