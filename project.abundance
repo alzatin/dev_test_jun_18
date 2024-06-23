@@ -174,10 +174,8 @@
                     "fileTypeVersion": 1,
                     "compiledBom": [
                         {
-                            "BOMitemName": "inside glass",
-                            "numberNeeded": 1,
-                            "costUSD": 220,
-                            "source": "www.example.com"
+                            "numberNeeded": null,
+                            "costUSD": null
                         }
                     ]
                 },
@@ -280,16 +278,8 @@
             "fileTypeVersion": 1,
             "compiledBom": [
                 {
-                    "BOMitemName": "inside glass",
-                    "numberNeeded": 1,
-                    "costUSD": 220,
-                    "source": "www.example.com"
-                },
-                {
-                    "BOMitemName": "bracket",
-                    "numberNeeded": 1,
-                    "costUSD": 230,
-                    "source": "www.example.com"
+                    "numberNeeded": null,
+                    "costUSD": null
                 }
             ]
         },
@@ -408,8 +398,8 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.6488095238095237,
-            "y": 0.45962732919254656,
+            "x": 0.6577380952380952,
+            "y": 0.515527950310559,
             "uniqueID": 1718909884317,
             "ioValues": [
                 {
@@ -460,8 +450,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.8234126984126985,
-            "y": 0.5248447204968945,
+            "x": 0.8293650793650793,
+            "y": 0.5186335403726707,
             "uniqueID": 1718895156360,
             "ioValues": [
                 {
@@ -482,7 +472,7 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.7011615628299894,
+            "x": 0.7003968253968255,
             "y": 0.7670807453416149,
             "uniqueID": 1718909842362,
             "ioValues": [
@@ -616,28 +606,8 @@
     "fileTypeVersion": 1,
     "compiledBom": [
         {
-            "BOMitemName": "screwtop",
-            "numberNeeded": 4,
-            "costUSD": 70,
-            "source": "www.example.com"
-        },
-        {
-            "BOMitemName": "inside glass",
-            "numberNeeded": 3,
-            "costUSD": 660,
-            "source": "www.example.com"
-        },
-        {
-            "BOMitemName": "bracket",
-            "numberNeeded": 3,
-            "costUSD": 690,
-            "source": "www.example.com"
-        },
-        {
-            "BOMitemName": "fixings",
-            "numberNeeded": 2,
-            "costUSD": 30.5,
-            "source": "www.example.com"
+            "numberNeeded": null,
+            "costUSD": null
         }
     ],
     "filetypeVersion": 1
