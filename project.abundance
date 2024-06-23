@@ -280,6 +280,12 @@
             "fileTypeVersion": 1,
             "compiledBom": [
                 {
+                    "BOMitemName": "inside glass",
+                    "numberNeeded": 1,
+                    "costUSD": 220,
+                    "source": "www.example.com"
+                },
+                {
                     "BOMitemName": "bracket",
                     "numberNeeded": 1,
                     "costUSD": 230,
@@ -608,5 +614,31 @@
     ],
     "unitsIndex": 0,
     "fileTypeVersion": 1,
+    "compiledBom": [
+        {
+            "BOMitemName": "screwtop",
+            "numberNeeded": 4,
+            "costUSD": 70,
+            "source": "www.example.com"
+        },
+        {
+            "BOMitemName": "inside glass",
+            "numberNeeded": 3,
+            "costUSD": 660,
+            "source": "www.example.com"
+        },
+        {
+            "BOMitemName": "bracket",
+            "numberNeeded": 3,
+            "costUSD": 690,
+            "source": "www.example.com"
+        },
+        {
+            "BOMitemName": "fixings",
+            "numberNeeded": 2,
+            "costUSD": 30.5,
+            "source": "www.example.com"
+        }
+    ],
     "filetypeVersion": 1
 }
