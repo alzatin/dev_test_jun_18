@@ -195,13 +195,13 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.11514522821576763,
-            "y": 0.6863354037267081,
+            "x": 0.11298838437170011,
+            "y": 0.6832298136645962,
             "uniqueID": 1718827536567,
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 10
+                    "ioValue": 9
                 }
             ]
         },
@@ -225,8 +225,8 @@
         {
             "atomType": "Color",
             "name": "Color",
-            "x": 0.6884531590413944,
-            "y": 0.3012422360248447,
+            "x": 0.6810982048574445,
+            "y": 0.30434782608695654,
             "uniqueID": 1718895248192,
             "ioValues": [
                 {
@@ -293,7 +293,7 @@
                 }
             ],
             "BOMitem": {
-                "BOMitemName": "named",
+                "BOMitemName": "example not working",
                 "numberNeeded": 1,
                 "costUSD": 20,
                 "source": "www.example.com"
