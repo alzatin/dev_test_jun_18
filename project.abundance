@@ -78,8 +78,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Molecule",
-                    "x": 0.337909186906019,
-                    "y": 0.813664596273292,
+                    "x": 0.40760295670538543,
+                    "y": 0.7763975155279503,
                     "uniqueID": 1719150788928,
                     "ioValues": [],
                     "topLevel": false,
@@ -172,7 +172,14 @@
                     ],
                     "unitsIndex": 0,
                     "fileTypeVersion": 1,
-                    "compiledBom": {}
+                    "compiledBom": [
+                        {
+                            "BOMitemName": "inside glass",
+                            "numberNeeded": 1,
+                            "costUSD": 220,
+                            "source": "www.example.com"
+                        }
+                    ]
                 },
                 {
                     "atomType": "Add-BOM-Tag",
@@ -272,6 +279,12 @@
             "unitsIndex": 0,
             "fileTypeVersion": 1,
             "compiledBom": [
+                {
+                    "BOMitemName": "inside glass",
+                    "numberNeeded": 1,
+                    "costUSD": 220,
+                    "source": "www.example.com"
+                },
                 {
                     "BOMitemName": "bracket",
                     "numberNeeded": 1,
@@ -406,7 +419,7 @@
             ],
             "BOMitem": {
                 "BOMitemName": "fixings",
-                "numberNeeded": 2,
+                "numberNeeded": 1,
                 "costUSD": 30.5,
                 "source": "www.example.com"
             }
@@ -424,7 +437,7 @@
                 }
             ],
             "BOMitem": {
-                "BOMitemName": "example not working",
+                "BOMitemName": "screwtop",
                 "numberNeeded": 1,
                 "costUSD": 20,
                 "source": "www.example.com"
@@ -433,8 +446,8 @@
         {
             "atomType": "Color",
             "name": "Color",
-            "x": 0.5718954248366013,
-            "y": 0.6708074534161491,
+            "x": 0.5638859556494192,
+            "y": 0.6894409937888198,
             "uniqueID": 1718828098073,
             "ioValues": [
                 {
@@ -603,27 +616,27 @@
     "fileTypeVersion": 1,
     "compiledBom": [
         {
-            "BOMitemName": "example not working",
-            "numberNeeded": 1,
-            "costUSD": 20,
+            "BOMitemName": "screwtop",
+            "numberNeeded": 6,
+            "costUSD": 70,
+            "source": "www.example.com"
+        },
+        {
+            "BOMitemName": "inside glass",
+            "numberNeeded": 3,
+            "costUSD": 660,
             "source": "www.example.com"
         },
         {
             "BOMitemName": "bracket",
-            "numberNeeded": 1,
-            "costUSD": 230,
+            "numberNeeded": 3,
+            "costUSD": 690,
             "source": "www.example.com"
         },
         {
             "BOMitemName": "fixings",
-            "numberNeeded": 2,
+            "numberNeeded": 1,
             "costUSD": 30.5,
-            "source": "www.example.com"
-        },
-        {
-            "BOMitemName": "screwtop",
-            "numberNeeded": 3,
-            "costUSD": 10,
             "source": "www.example.com"
         }
     ],
