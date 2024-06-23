@@ -2,10 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|screwtop|6|$70.00||
-|inside glass|3|$660.00||
-|bracket|3|$690.00||
-|fixings|1|$30.50||
-|Total: |13|$1450.50| |
+|Total: |0|$0.00| |
 
- 3xCOG MSRP: $4351.50
+ 3xCOG MSRP: $0.00
