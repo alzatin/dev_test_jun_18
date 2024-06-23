@@ -293,10 +293,6 @@
                 {
                     "name": "3D shape 1",
                     "ioValue": 1718827212733
-                },
-                {
-                    "name": "3D shape 3",
-                    "ioValue": 1718898781441
                 }
             ],
             "unionType": "Assembly"
@@ -398,8 +394,8 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.6577380952380952,
-            "y": 0.515527950310559,
+            "x": 0.6617063492063492,
+            "y": 0.5,
             "uniqueID": 1718909884317,
             "ioValues": [
                 {
@@ -472,8 +468,8 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.7003968253968255,
-            "y": 0.7670807453416149,
+            "x": 0.6944444444444444,
+            "y": 0.7732919254658385,
             "uniqueID": 1718909842362,
             "ioValues": [
                 {
@@ -503,13 +499,6 @@
         }
     ],
     "allConnectors": [
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "3D shape 3",
-            "ap2Primary": false,
-            "ap1ID": 1718898781441,
-            "ap2ID": 1718828006821
-        },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
