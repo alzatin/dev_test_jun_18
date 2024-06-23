@@ -2,9 +2,10 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
+|example not working|1|$20.00||
 |bracket|1|$230.00||
 |fixings|2|$30.50||
 |screwtop|3|$10.00||
-|Total: |6|$270.50| |
+|Total: |7|$290.50| |
 
- 3xCOG MSRP: $811.50
+ 3xCOG MSRP: $871.50

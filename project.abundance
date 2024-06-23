@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.17740232312565998,
-            "y": 0.40062111801242234,
+            "x": 0.14044350580781415,
+            "y": 0.2857142857142857,
             "uniqueID": 1718898781441,
             "ioValues": [],
             "topLevel": false,
@@ -61,8 +61,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.5508298755186721,
-                    "y": 0.46894409937888204,
+                    "x": 0.45300950369588167,
+                    "y": 0.46583850931677023,
                     "uniqueID": 1718898792039,
                     "ioValues": [
                         {
@@ -87,8 +87,8 @@
                         {
                             "atomType": "Add-BOM-Tag",
                             "name": "Add BOM Tag",
-                            "x": 0.5343189017951425,
-                            "y": 0.4472049689440994,
+                            "x": 0.5353748680042238,
+                            "y": 0.4409937888198758,
                             "uniqueID": 1719150807542,
                             "ioValues": [
                                 {
@@ -171,13 +171,14 @@
                         }
                     ],
                     "unitsIndex": 0,
-                    "fileTypeVersion": 1
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
                 },
                 {
                     "atomType": "Add-BOM-Tag",
                     "name": "Add BOM Tag",
-                    "x": 0.7877507919746568,
-                    "y": 0.4782608695652174,
+                    "x": 0.8204857444561774,
+                    "y": 0.5062111801242236,
                     "uniqueID": 1718935220118,
                     "ioValues": [
                         {
@@ -195,8 +196,8 @@
                 {
                     "atomType": "Join",
                     "name": "Assembly",
-                    "x": 0.6663146779303062,
-                    "y": 0.7732919254658385,
+                    "x": 0.7117212249208025,
+                    "y": 0.6428571428571428,
                     "uniqueID": 1719150793770,
                     "ioValues": [
                         {
@@ -300,8 +301,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.37472766884531594,
-            "y": 0.4937888198757764,
+            "x": 0.3717001055966209,
+            "y": 0.4503105590062112,
             "uniqueID": 1718827212733,
             "ioValues": [
                 {
@@ -338,8 +339,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.24945533769063183,
-            "y": 0.6956521739130435,
+            "x": 0.21964097148891237,
+            "y": 0.5527950310559007,
             "uniqueID": 1718827544446,
             "ioValues": [
                 {
@@ -394,8 +395,8 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.6514161220043573,
-            "y": 0.47204968944099385,
+            "x": 0.6504751847940865,
+            "y": 0.4627329192546583,
             "uniqueID": 1718909884317,
             "ioValues": [
                 {
@@ -413,8 +414,8 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.3605664488017429,
-            "y": 0.8012422360248447,
+            "x": 0.3484688489968321,
+            "y": 0.8043478260869565,
             "uniqueID": 1719077782791,
             "ioValues": [
                 {
@@ -601,6 +602,12 @@
     "unitsIndex": 0,
     "fileTypeVersion": 1,
     "compiledBom": [
+        {
+            "BOMitemName": "example not working",
+            "numberNeeded": 1,
+            "costUSD": 20,
+            "source": "www.example.com"
+        },
         {
             "BOMitemName": "bracket",
             "numberNeeded": 1,
