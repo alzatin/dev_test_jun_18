@@ -280,10 +280,6 @@
             "fileTypeVersion": 1,
             "compiledBom": [
                 {
-                    "numberNeeded": null,
-                    "costUSD": null
-                },
-                {
                     "BOMitemName": "inside glass",
                     "numberNeeded": 1,
                     "costUSD": 220,
@@ -300,8 +296,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.21964097148891237,
-            "y": 0.5527950310559007,
+            "x": 0.2371031746031746,
+            "y": 0.65527950310559,
             "uniqueID": 1718827544446,
             "ioValues": [
                 {
@@ -310,24 +306,24 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 10
+                    "ioValue": 14
                 }
             ]
         },
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.46726190476190477,
-            "y": 0.42546583850931674,
+            "x": 0.4692460317460317,
+            "y": 0.391304347826087,
             "uniqueID": 1718828006821,
             "ioValues": [
                 {
-                    "name": "3D shape 2",
-                    "ioValue": 1719077782791
-                },
-                {
                     "name": "3D shape 3",
                     "ioValue": 1718898781441
+                },
+                {
+                    "name": "3D shape 4",
+                    "ioValue": 1719077782791
                 }
             ],
             "unionType": "Assembly"
@@ -336,12 +332,12 @@
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.10615079365079366,
-            "y": 0.6832298136645962,
+            "y": 0.6956521739130435,
             "uniqueID": 1718827536567,
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 9
+                    "ioValue": 6
                 }
             ]
         },
@@ -381,8 +377,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.5267857142857143,
-            "y": 0.7608695652173914,
+            "x": 0.5297619047619048,
+            "y": 0.7763975155279503,
             "uniqueID": 1718828067938,
             "ioValues": [
                 {
@@ -407,7 +403,7 @@
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
             "x": 0.3392857142857143,
-            "y": 0.8229813664596274,
+            "y": 0.813664596273292,
             "uniqueID": 1719077782791,
             "ioValues": [
                 {
@@ -499,7 +495,7 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 10
+                    "ioValue": 9
                 }
             ]
         },
@@ -603,7 +599,7 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 2",
+            "ap2Name": "3D shape 4",
             "ap2Primary": false,
             "ap1ID": 1719077782791,
             "ap2ID": 1718828006821
@@ -647,6 +643,18 @@
     "unitsIndex": 0,
     "fileTypeVersion": 1,
     "compiledBom": [
+        {
+            "BOMitemName": "inside glass",
+            "numberNeeded": 3,
+            "costUSD": 660,
+            "source": "www.example.com"
+        },
+        {
+            "BOMitemName": "bracket",
+            "numberNeeded": 3,
+            "costUSD": 690,
+            "source": "www.example.com"
+        },
         {
             "BOMitemName": "note",
             "numberNeeded": 3,
