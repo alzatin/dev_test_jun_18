@@ -295,9 +295,9 @@
         },
         {
             "atomType": "Join",
-            "name": "Assembly",
-            "x": 0.4027777777777778,
-            "y": 0.2577639751552795,
+            "name": "Fusion",
+            "x": 0.3531746031746032,
+            "y": 0.18012422360248448,
             "uniqueID": 1719325198629,
             "ioValues": [
                 {
@@ -305,7 +305,7 @@
                     "ioValue": 1719325204271
                 }
             ],
-            "unionType": "Assembly"
+            "unionType": "Fusion"
         },
         {
             "atomType": "Circle",
@@ -341,9 +341,9 @@
         },
         {
             "atomType": "Join",
-            "name": "Assembly",
-            "x": 0.4692460317460317,
-            "y": 0.391304347826087,
+            "name": "Fusion",
+            "x": 0.5208333333333334,
+            "y": 0.3385093167701863,
             "uniqueID": 1718828006821,
             "ioValues": [
                 {
@@ -355,7 +355,7 @@
                     "ioValue": 1719077782791
                 }
             ],
-            "unionType": "Assembly"
+            "unionType": "Fusion"
         },
         {
             "atomType": "Extrude",
