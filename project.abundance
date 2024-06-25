@@ -202,8 +202,8 @@
                 {
                     "atomType": "Add-BOM-Tag",
                     "name": "Add BOM Tag",
-                    "x": 0.8204857444561774,
-                    "y": 0.5062111801242236,
+                    "x": 0.8184523809523809,
+                    "y": 0.5031055900621119,
                     "uniqueID": 1718935220118,
                     "ioValues": [
                         {
@@ -317,13 +317,17 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.503968253968254,
-            "y": 0.35714285714285715,
+            "x": 0.46726190476190477,
+            "y": 0.42546583850931674,
             "uniqueID": 1718828006821,
             "ioValues": [
                 {
                     "name": "3D shape 2",
                     "ioValue": 1719077782791
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 1718898781441
                 }
             ],
             "unionType": "Assembly"
@@ -331,7 +335,7 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.11298838437170011,
+            "x": 0.10615079365079366,
             "y": 0.6832298136645962,
             "uniqueID": 1718827536567,
             "ioValues": [
@@ -377,8 +381,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.5327380952380952,
-            "y": 0.6708074534161491,
+            "x": 0.5267857142857143,
+            "y": 0.7608695652173914,
             "uniqueID": 1718828067938,
             "ioValues": [
                 {
@@ -421,8 +425,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.8462301587301587,
-            "y": 0.4937888198757764,
+            "x": 0.8452380952380952,
+            "y": 0.5031055900621119,
             "uniqueID": 1718895156360,
             "ioValues": [
                 {
@@ -489,8 +493,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.13690476190476192,
-            "y": 0.48447204968944096,
+            "x": 0.13194444444444445,
+            "y": 0.4751552795031056,
             "uniqueID": 1719325194448,
             "ioValues": [
                 {
@@ -535,18 +539,18 @@
     ],
     "allConnectors": [
         {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1718827544446,
-            "ap2ID": 1719077782791
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 3",
+            "ap2Primary": false,
+            "ap1ID": 1718898781441,
+            "ap2ID": 1718828006821
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
-            "ap1ID": 1718828006821,
-            "ap2ID": 1718828067938
+            "ap1ID": 1718827544446,
+            "ap2ID": 1719077782791
         },
         {
             "ap1Name": "geometry",
@@ -561,6 +565,13 @@
             "ap2Primary": true,
             "ap1ID": 1718828006821,
             "ap2ID": 1718909884317
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1718828006821,
+            "ap2ID": 1718828067938
         },
         {
             "ap1Name": "geometry",
@@ -637,8 +648,10 @@
     "fileTypeVersion": 1,
     "compiledBom": [
         {
-            "numberNeeded": null,
-            "costUSD": null
+            "BOMitemName": "note",
+            "numberNeeded": 3,
+            "costUSD": 60,
+            "source": "www.example.com"
         },
         {
             "BOMitemName": "fixings",
