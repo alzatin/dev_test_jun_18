@@ -480,8 +480,8 @@
         {
             "atomType": "Intersection",
             "name": "Intersection",
-            "x": 0.6319444444444444,
-            "y": 0.6770186335403726,
+            "x": 0.6563146997929606,
+            "y": 0.5869565217391304,
             "uniqueID": 1719328283573,
             "ioValues": [
                 {
@@ -497,8 +497,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.5297619047619048,
-            "y": 0.7763975155279503,
+            "x": 0.5227743271221532,
+            "y": 0.5683229813664596,
             "uniqueID": 1718828067938,
             "ioValues": [
                 {
@@ -544,8 +544,8 @@
         {
             "atomType": "Color",
             "name": "Color",
-            "x": 0.621031746031746,
-            "y": 0.8478260869565217,
+            "x": 0.6376811594202899,
+            "y": 0.7670807453416149,
             "uniqueID": 1718828098073,
             "ioValues": [
                 {
@@ -558,8 +558,8 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.7569444444444444,
-            "y": 0.7577639751552795,
+            "x": 0.7360248447204969,
+            "y": 0.6708074534161491,
             "uniqueID": 1718909842362,
             "ioValues": [
                 {
@@ -586,6 +586,63 @@
                     "ioValue": 1718895156360
                 }
             ]
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.8561076604554866,
+            "y": 0.8260869565217391,
+            "uniqueID": 1719414719374,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1718895156360
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.40993788819875776,
+            "y": 0.8850931677018634,
+            "uniqueID": 1719414775992,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.6480331262939959,
+            "y": 0.9006211180124224,
+            "uniqueID": 1719414780150,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1719414798334
+                }
+            ]
+        },
+        {
+            "atomType": "Join",
+            "name": "Assembly",
+            "x": 0.5372670807453416,
+            "y": 0.8291925465838509,
+            "uniqueID": 1719414798334,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 1719325194448
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 1719414775992
+                }
+            ],
+            "unionType": "Assembly"
         }
     ],
     "allConnectors": [
@@ -616,6 +673,13 @@
             "ap2Primary": true,
             "ap1ID": 1719325194448,
             "ap2ID": 1719325204271
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 1719325194448,
+            "ap2ID": 1719414798334
         },
         {
             "ap1Name": "geometry",
@@ -725,6 +789,13 @@
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1718895156360,
+            "ap2ID": 1719414719374
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 1718828098073,
             "ap2ID": 1718909842362
@@ -735,6 +806,20 @@
             "ap2Primary": false,
             "ap1ID": 1718909842362,
             "ap2ID": 1718895156360
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 1719414775992,
+            "ap2ID": 1719414798334
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1719414798334,
+            "ap2ID": 1719414780150
         }
     ],
     "unitsIndex": 0,
