@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.13988095238095238,
-            "y": 0.2608695652173913,
+            "x": 0.14437086092715232,
+            "y": 0.2664576802507837,
             "uniqueID": 1718898781441,
             "ioValues": [],
             "topLevel": false,
@@ -25,7 +25,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 11
                         },
                         {
                             "name": "y length",
@@ -78,8 +78,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Molecule",
-                    "x": 0.4087301587301588,
-                    "y": 0.782608695652174,
+                    "x": 0.40927152317880794,
+                    "y": 0.7899686520376176,
                     "uniqueID": 1719150788928,
                     "ioValues": [],
                     "topLevel": false,
@@ -314,8 +314,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.07152317880794702,
-            "y": 0.4670846394984326,
+            "x": 0.08874172185430464,
+            "y": 0.45141065830721006,
             "uniqueID": 1719325194448,
             "ioValues": [
                 {
@@ -323,25 +323,6 @@
                     "ioValue": 3
                 }
             ]
-        },
-        {
-            "atomType": "Add-BOM-Tag",
-            "name": "Add BOM Tag",
-            "x": 0.21589403973509932,
-            "y": 0.4420062695924765,
-            "uniqueID": 1719325204271,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1719325194448
-                }
-            ],
-            "BOMitem": {
-                "BOMitemName": "totally",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": "www.example.com"
-            }
         },
         {
             "atomType": "Join",
@@ -374,7 +355,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1719325204271
+                    "ioValue": 1719325194448
                 },
                 {
                     "name": "height",
@@ -385,13 +366,13 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.10455486542443064,
-            "y": 0.6956521739130435,
+            "x": 0.11258278145695363,
+            "y": 0.7084639498432601,
             "uniqueID": 1718827536567,
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 1
+                    "ioValue": 2
                 }
             ]
         },
@@ -697,20 +678,13 @@
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 1719325194448,
-            "ap2ID": 1719325204271
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1719325194448,
             "ap2ID": 1719414840863
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
-            "ap1ID": 1719325204271,
+            "ap1ID": 1719325194448,
             "ap2ID": 1719414148306
         },
         {
@@ -873,12 +847,6 @@
             "BOMitemName": "note",
             "numberNeeded": 3,
             "costUSD": 60,
-            "source": "www.example.com"
-        },
-        {
-            "BOMitemName": "totally",
-            "numberNeeded": 3,
-            "costUSD": 0,
             "source": "www.example.com"
         },
         {

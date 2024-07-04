@@ -5,9 +5,8 @@
 |inside glass|6|$1320.00||
 |bracket|6|$1380.00||
 |note|3|$60.00||
-|totally|3|$0.00||
 |fixings|2|$30.50||
 |screwtop|1|$10.00||
-|Total: |21|$2800.50| |
+|Total: |18|$2800.50| |
 
  3xCOG MSRP: $8401.50
