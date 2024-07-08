@@ -634,12 +634,17 @@
         },
         {
             "atomType": "Join",
-            "name": "Fusion",
-            "x": 0.7894039735099337,
-            "y": 0.793103448275862,
-            "uniqueID": 1720449713668,
-            "ioValues": [],
-            "unionType": "Fusion"
+            "name": "Assembly",
+            "x": 0.7880794701986755,
+            "y": 0.7962382445141066,
+            "uniqueID": 1720450241382,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 1718828098073
+                }
+            ],
+            "unionType": "Assembly"
         }
     ],
     "allConnectors": [
@@ -775,6 +780,13 @@
             "ap2Primary": true,
             "ap1ID": 1718828098073,
             "ap2ID": 1718909842362
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 1718828098073,
+            "ap2ID": 1720450241382
         },
         {
             "ap1Name": "geometry",
