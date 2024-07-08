@@ -338,7 +338,7 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 18
+                    "ioValue": 17
                 }
             ]
         },
@@ -572,7 +572,12 @@
             "x": 0.972809667673716,
             "y": 0.5,
             "uniqueID": 1718731758107,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1718895156360
+                }
+            ]
         },
         {
             "atomType": "Move",
