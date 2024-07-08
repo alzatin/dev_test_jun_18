@@ -536,8 +536,8 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.7360248447204969,
-            "y": 0.6708074534161491,
+            "x": 0.7377049180327868,
+            "y": 0.5799373040752351,
             "uniqueID": 1718909842362,
             "ioValues": [
                 {
@@ -572,12 +572,7 @@
             "x": 0.972809667673716,
             "y": 0.5,
             "uniqueID": 1718731758107,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1718895156360
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Move",
