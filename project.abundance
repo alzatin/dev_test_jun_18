@@ -10,10 +10,15 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.13642384105960265,
-            "y": 0.27586206896551724,
+            "x": 0.13774834437086092,
+            "y": 0.26332288401253917,
             "uniqueID": 1718898781441,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "name1",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -25,7 +30,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 11
+                            "ioValue": 10
                         },
                         {
                             "name": "y length",
@@ -230,6 +235,14 @@
                             "ioValue": 1718935220118
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "name1",
+                    "x": 0.013333333333333334,
+                    "y": 0.7648902821316614,
+                    "uniqueID": 1720449705027,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -274,6 +287,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1718935220118,
                     "ap2ID": 1718898781288
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x length",
+                    "ap2Primary": false,
+                    "ap1ID": 1720449705027,
+                    "ap2ID": 1718898790632
                 }
             ],
             "unitsIndex": 0,
@@ -320,13 +340,13 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 4
+                    "ioValue": 5
                 }
             ]
         },
         {
             "atomType": "Join",
-            "name": "Assembly",
+            "name": "Fusion",
             "x": 0.5046357615894039,
             "y": 0.3322884012539185,
             "uniqueID": 1718828006821,
@@ -340,7 +360,7 @@
                     "ioValue": 1719325198629
                 }
             ],
-            "unionType": "Assembly"
+            "unionType": "Fusion"
         },
         {
             "atomType": "Extrude",
@@ -611,6 +631,15 @@
                     "ioValue": 0
                 }
             ]
+        },
+        {
+            "atomType": "Join",
+            "name": "Fusion",
+            "x": 0.7894039735099337,
+            "y": 0.793103448275862,
+            "uniqueID": 1720449713668,
+            "ioValues": [],
+            "unionType": "Fusion"
         }
     ],
     "allConnectors": [
