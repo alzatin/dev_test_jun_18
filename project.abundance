@@ -175,7 +175,6 @@
                             "ap2ID": 1719150788934
                         }
                     ],
-                    "unitsIndex": 0,
                     "fileTypeVersion": 1,
                     "compiledBom": [
                         {
@@ -296,7 +295,6 @@
                     "ap2ID": 1718898790632
                 }
             ],
-            "unitsIndex": 0,
             "fileTypeVersion": 1,
             "compiledBom": [
                 {
@@ -334,13 +332,13 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.09933774834437087,
-            "y": 0.5329153605015674,
+            "x": 0.10198675496688742,
+            "y": 0.554858934169279,
             "uniqueID": 1719325194448,
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 5
+                    "ioValue": 6
                 }
             ]
         },
@@ -796,7 +794,6 @@
             "ap2ID": 1719414798334
         }
     ],
-    "unitsIndex": 0,
     "fileTypeVersion": 1,
     "compiledBom": [
         {
