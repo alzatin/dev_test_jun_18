@@ -180,7 +180,7 @@
                         {
                             "BOMitemName": "inside glass",
                             "numberNeeded": 1,
-                            "costUSD": 220,
+                            "costUSD": 220.0001,
                             "source": "www.example.com"
                         }
                     ]
@@ -300,13 +300,13 @@
                 {
                     "BOMitemName": "inside glass",
                     "numberNeeded": 1,
-                    "costUSD": 220,
+                    "costUSD": 220.0001,
                     "source": "www.example.com"
                 },
                 {
                     "BOMitemName": "bracket",
                     "numberNeeded": 1,
-                    "costUSD": 230,
+                    "costUSD": 230.0001,
                     "source": "www.example.com"
                 }
             ]
@@ -344,7 +344,7 @@
         },
         {
             "atomType": "Join",
-            "name": "Fusion",
+            "name": "Assembly",
             "x": 0.5046357615894039,
             "y": 0.3322884012539185,
             "uniqueID": 1718828006821,
@@ -358,7 +358,7 @@
                     "ioValue": 1719325198629
                 }
             ],
-            "unionType": "Fusion"
+            "unionType": "Assembly"
         },
         {
             "atomType": "Extrude",
@@ -447,19 +447,6 @@
                 "costUSD": 30.5,
                 "source": "www.example.com"
             }
-        },
-        {
-            "atomType": "Export",
-            "name": "Export",
-            "x": 0.8045634920634921,
-            "y": 0.3105590062111801,
-            "uniqueID": 1719328305125,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1718895248192
-                }
-            ]
         },
         {
             "atomType": "Add-BOM-Tag",
@@ -719,13 +706,6 @@
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1718895248192,
-            "ap2ID": 1719328305125
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 1718828067938,
             "ap2ID": 1718828098073
@@ -799,25 +779,25 @@
         {
             "BOMitemName": "note",
             "numberNeeded": 2,
-            "costUSD": 40,
+            "costUSD": 40.0001,
             "source": "www.example.com"
         },
         {
             "BOMitemName": "inside glass",
             "numberNeeded": 2,
-            "costUSD": 440,
+            "costUSD": 440.0001,
             "source": "www.example.com"
         },
         {
             "BOMitemName": "bracket",
             "numberNeeded": 2,
-            "costUSD": 460,
+            "costUSD": 460.0001,
             "source": "www.example.com"
         },
         {
             "BOMitemName": "screwtop",
             "numberNeeded": 1,
-            "costUSD": 10,
+            "costUSD": 10.0001,
             "source": "www.example.com"
         }
     ],
