@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.13774834437086092,
-            "y": 0.26332288401253917,
+            "x": 0.11584699453551912,
+            "y": 0.2664576802507837,
             "uniqueID": 1718898781441,
             "ioValues": [
                 {
@@ -34,7 +34,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10
+                            "ioValue": 11
                         }
                     ]
                 },
@@ -58,8 +58,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6578669482576558,
-                    "y": 0.2546583850931677,
+                    "x": 0.6557377049180328,
+                    "y": 0.26332288401253917,
                     "uniqueID": 1718898797699,
                     "ioValues": [
                         {
@@ -76,7 +76,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 5
+                            "ioValue": 6
                         }
                     ]
                 },
@@ -188,8 +188,8 @@
                 {
                     "atomType": "Join",
                     "name": "Assembly",
-                    "x": 0.6755952380952381,
-                    "y": 0.6583850931677019,
+                    "x": 0.6885245901639344,
+                    "y": 0.64576802507837,
                     "uniqueID": 1719150793770,
                     "ioValues": [
                         {
@@ -228,12 +228,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1718898781288,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1718935220118
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Input",
@@ -572,12 +567,7 @@
             "x": 0.972809667673716,
             "y": 0.5,
             "uniqueID": 1718731758107,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1718895156360
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Move",
